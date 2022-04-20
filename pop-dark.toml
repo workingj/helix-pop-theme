@@ -28,6 +28,10 @@ diagnostic = { fg = 'greyT', bg = 'redD' }
 'ui.statusline.inactive' = { bg = 'brownN' }
 'ui.help' = { bg = 'brownD' }
 'ui.highlight' = { bg = 'brownH' }
+'ui.virtual' = { fg = 'brownH' }
+'ui.virtual.ruler' = { fg = 'brownH' }
+'ui.virtual.whitespace' = { fg = 'brownH' }
+'ui.virtual.indent-guide' = { fg = 'brownH' }
 'ui.menu' = { bg = 'brownD' }
 'ui.menu.selected' = { fg = 'orangeH', bg = 'brownH' }
 'ui.popup' = { bg = 'brownD' }
