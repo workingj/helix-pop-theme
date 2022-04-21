@@ -16,7 +16,7 @@ diagnostic = { fg = 'greyT', bg = 'redD' }
 'ui.text.focus' = { fg = 'orangeN' }
 'ui.text.info' = { fg = 'orangeH', bg = 'brownH' }
 'ui.cursor' = { fg = 'greyD', bg = 'orangeY' }
-'ui.cursor.insert' = { fg = 'black', bg = 'orangeN' }
+'ui.cursor.insert' = { fg = 'orangeN', bg = 'orangeN' }
 'ui.cursor.select' = { fg = 'black', bg = 'orangeN' }
 'ui.cursor.match' = { fg = 'black', bg = 'blueD' }
 'ui.cursor.primary' = { fg = 'black', bg = 'orangeN' }
@@ -28,17 +28,16 @@ diagnostic = { fg = 'greyT', bg = 'redD' }
 'ui.statusline.inactive' = { bg = 'brownN' }
 'ui.help' = { bg = 'brownD' }
 'ui.highlight' = { bg = 'brownH' }
-'ui.virtual' = { fg = 'brownH' }
-'ui.virtual.ruler' = { fg = 'brownH' }
-'ui.virtual.whitespace' = { fg = 'brownH' }
-'ui.virtual.indent-guide' = { fg = 'brownH' }
+'ui.virtual' = { fg = 'brownV' }
+'ui.virtual.ruler' = { bg = 'brownR' }
+'ui.virtual.whitespace' = { fg = 'brownV' }
+'ui.virtual.indent-guide' = { fg = 'brownR' }
 'ui.menu' = { bg = 'brownD' }
 'ui.menu.selected' = { fg = 'orangeH', bg = 'brownH' }
 'ui.popup' = { bg = 'brownD' }
 'ui.popup.info' = { bg = 'brownH', fg = 'greyT' }
 tag = { fg = 'blueH' }
 label = { fg = 'greenS' }
-# escape = { bg = '#FF0000' } # ?
 # module = { bg = '#FF0000' } # ?
 special = { fg = 'orangeW' }
 operator = { fg = 'orangeY' }
@@ -150,6 +149,8 @@ blueH = '#8DEEF9'
 blueL = '#6dd2fa'
 blueN = '#39B7C7'
 blueD = '#4AAAD6'
+brownV = '#67634F'
 brownH = '#56524E'
 brownN = '#3F3B39'
+brownR = '#35312f'
 brownD = '#2B2928'
