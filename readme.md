@@ -1,4 +1,4 @@
-# Pop Dark theme for the Helix Editor
+# Pop Dark theme for Helix Text Editor
 
 This theme is based on [Nathaniel Webb's VSCodePopTheme](https://github.com/ArtisanByteCrafter/VSCodePopTheme)
 
