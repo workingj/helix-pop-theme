@@ -1,14 +1,17 @@
 # Pop Dark theme for the Helix Editor
 # Author: workingj<workingj@pm.me>
 # Repo: https://github.com/workingJ/helix-pop-theme
-# Version: 1.0
+# Version: 1.3
 # This theme is based on Nathaniel Webb's VSCodePopTheme <https://github.com/ArtisanByteCrafter/VSCodePopTheme>
 
 info = { fg = 'yellowH', bg = 'brownD' }
 hint = { fg = 'brownD', bg = 'yellowH', modifiers = ['bold'] }
 warning = { fg = 'brownD', bg = 'orangeW', modifiers = ['bold'] }
 error = { fg = 'brownD', bg = 'redE', modifiers = ['bold'] }
-diagnostic = { fg = 'greyT', bg = 'redD' }
+"diagnostic.info".underline = { color = "yellowH", style = "curl" } 
+"diagnostic.hint".underline = { color = "yellowH", style = "curl" } 
+"diagnostic.warning".underline = { color = "orangeW", style = "curl" } 
+"diagnostic.error".underline = { color = "redE", style = "curl" } 
 'ui.background' = { bg = 'brownN' }
 'ui.window' = { bg = 'brownH', fg = "brownD" } 
 'ui.gutter' = { bg = 'brownH' }
@@ -24,15 +27,16 @@ diagnostic = { fg = 'greyT', bg = 'redD' }
 'ui.selection.primary' = { bg = 'blueD', fg = 'white' }
 'ui.linenr' = { bg = "brownN", fg = 'greyL' }
 'ui.linenr.selected' = { bg = 'brownH', fg = 'orangeH' }
-'ui.statusline' = { bg = 'brownH' }
-'ui.statusline.inactive' = { bg = 'brownN' }
-'ui.help' = { bg = 'brownD' }
+'ui.cursorline' = { bg = 'brownD' }
+'ui.statusline' = { fg = "greyT", bg = 'brownH' }
+'ui.statusline.inactive' = { fg = "greyT", bg = 'brownN' }
+'ui.help' = { fg = "greyT", bg = 'brownD' }
 'ui.highlight' = { bg = 'brownH' }
 'ui.virtual' = { fg = 'brownV' }
 'ui.virtual.ruler' = { bg = 'brownR' }
 'ui.virtual.whitespace' = { fg = 'brownV' }
 'ui.virtual.indent-guide' = { fg = 'brownR' }
-'ui.menu' = { bg = 'brownD' }
+'ui.menu' = { fg = "greyT", bg = 'brownD' }
 'ui.menu.selected' = { fg = 'orangeH', bg = 'brownH' }
 'ui.popup' = { bg = 'brownD' }
 'ui.popup.info' = { bg = 'brownH', fg = 'greyT' }
@@ -41,9 +45,7 @@ label = { fg = 'greenS' }
 module = { bg = 'orangeL' }
 special = { fg = 'orangeW' }
 operator = { fg = 'orangeY' }
-property = { bg = 'blueH' }
 attribute = { fg = 'orangeL' }
-attributes = { fg = 'orangeL' }
 namespace = { fg = 'orangeL' }
 'type' = { fg = 'redH' }
 'type.builtin' = { fg = 'orangeL' }
@@ -55,9 +57,6 @@ namespace = { fg = 'orangeL' }
 'constant.character' = { fg = 'greenS' }
 'constant.character.escape' = { fg = 'blueL' }
 'constant.numeric' = { fg = 'redH' }
-'constant.number' = { bg = 'blueH' }
-'constant.number.integer' = { fg = 'orangeS' }
-'constant.number.float' = { fg = 'orangeS' }
 'string' = { fg = 'greenN' }
 'string.regexp' = { fg = 'blueL' }
 'string.special' = { fg = 'orangeW' }
@@ -74,7 +73,7 @@ namespace = { fg = 'orangeL' }
 'variable.other.member' = { fg = 'orangeH' }
 'variable.function' = { fg = 'blueL' }
 'punctuation' = { fg = 'blueL' }
-'punctuation.delimeter' = { fg = 'blueH' }
+'punctuation.delimiter' = { fg = 'blueH' }
 'punctuation.bracket' = { fg = 'orangeN' }
 'keyword' = { fg = 'blueH' }
 'keyword.control' = { fg = 'blueL' }
@@ -104,6 +103,7 @@ namespace = { fg = 'orangeL' }
 'markup.list.unnumbered' = { fg = 'greenN' }
 'markup.bold' = { modifiers = ['bold'] }
 'markup.italic' = { modifiers = ['italic'] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
 'markup.link' = { fg = 'blueD' }
 'markup.link.url' = { fg = 'blueL' }
 'markup.link.label' = { fg = 'blueH' }
@@ -155,4 +155,3 @@ brownH = '#56524E'
 brownN = '#3F3B39'
 brownR = '#35312f'
 brownD = '#2B2928'
-
